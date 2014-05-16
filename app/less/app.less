@@ -1,0 +1,199 @@
+body {
+  background-image: url('/img/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Arhitects Daughter', cursive;
+  font-size: 20px;
+}
+
+button {
+  background-color: #499955;
+  color: #442700;
+  border: 3px #2c5831 outset;
+  outline: none;
+}
+
+button:active {
+  border: 3px #2c5831 inset;
+  outline: none;
+}
+
+/*
+***********************
+* =header
+***********************
+*/
+
+header {
+  height: 100px;
+  background-color: #442700;
+  color: #499955;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 20px;
+}
+
+#controls {
+  float: right;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+
+#controls input {
+  margin-right: 5px;
+  width: 200px;
+}
+
+/*
+***********************
+* =dashboard
+***********************
+*/
+
+#dashboard {
+  max-width: 26%;
+  background-color: #442700;
+  color: #499955;
+  border: 5px #499955 dashed;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#dashboard h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 3px;
+  margin-bottom: -11px;
+}
+
+#stats {
+  text-align: center;
+  border-bottom: 1px #499955 solid;
+}
+
+#cash, #wood {
+  width: 50%;
+  display: inline-block;
+}
+
+#dashboard button {
+  width: 175px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#amount {
+  width: 61px;
+}
+
+button#sell {
+  width: 110px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 4px;
+  margin-bottom: 2px;
+  border-top: 1px #499955 solid;
+  text-decoration: underline;
+}
+
+.purchaseautogrow {
+  text-align: center;
+}
+
+.autogrow {
+  background-color: red;
+  content: 'Auto Grow';
+}
+
+.on {
+  background-color: #499955;
+  content: 'Growing...';
+}
+
+/*
+***********************
+* =forest
+***********************
+*/
+
+#forest {
+  width: 68%;
+  background-color: #442700;
+  color: #499955;
+  border: 5px #499955 dashed;
+  height: 305px;
+  overflow: auto;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.tree {
+  width: 230px;
+  float: left;
+  margin-top: 15px;
+}
+
+.treephoto {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.controls {
+  text-align: center;
+  height: 73px;
+}
+
+.height {
+  text-align: center;
+}
+
+/*
+***********************
+* =treestatus
+***********************
+*/
+
+.adult.beanstalk {
+  background-image: url('/img/beanstalk.png');
+}
+
+.seed {
+  background-image: url('/img/seed.png');
+}
+
+.sapling {
+  background-image: url('/img/sapling.png');
+}
+
+.treenager {
+  background-image: url('/img/treenager.png');
+}
+
+.adult {
+  background-image: url('/img/adult.png');
+}
+
+.dead {
+  background-image: url('/img/dead.png');
+}
+
+.chopped {
+  background-image: url('/img/stump.png');
+}
